@@ -1,0 +1,17 @@
+{
+  "name": "ad_creative_renderer",
+  "version": "0.0.1",
+  "description": "Take pictures of ad creatives as they are imported",
+  "scripts": {
+    "start": "node take_pictures.js"
+  },
+  "author": "William Klausmeyer",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "jimp": "^0.2.28",
+    "mysql": "^2.13.0",
+    "s3fs": "^2.5.0",
+    "webshot": "^0.18.0",
+    "yargs": "^8.0.2"
+  }
+}
